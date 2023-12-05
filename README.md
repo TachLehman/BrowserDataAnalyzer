@@ -17,6 +17,7 @@
 
 # Usage:
 python WBD.py
+(CSV files are created in the same folder as the script)
 
 # Dependencies:
 Pandas (used for working with the data contained in the various files) - pip install pandas
