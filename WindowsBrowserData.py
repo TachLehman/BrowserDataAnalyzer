@@ -131,9 +131,9 @@ combined_cookies = pandas.concat(
 combined_bookmarks = pandas.concat(
     [chrome_bookmarks.assign(browser='Chrome'), edge_bookmarks.assign(browser='Edge')])
 
-combined_history.to_csv("consolidated_history.csv", index=False)
-combined_cookies.to_csv("consolidated_cookies.csv", index=False)
-combined_bookmarks.to_csv("consolidated_bookmarks.csv", index=False)
+combined_history.to_csv("combined_history.csv", index=False)
+combined_cookies.to_csv("combined_cookies.csv", index=False)
+combined_bookmarks.to_csv("combined_bookmarks.csv", index=False)
 
 # Print confirmation that the program ran successfully
 print("Data exported to CSV files")
