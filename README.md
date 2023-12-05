@@ -1,1 +1,1 @@
-Browser Data Analyzer
+Windows Browser Data to CSV
